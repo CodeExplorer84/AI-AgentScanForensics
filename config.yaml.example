@@ -1,0 +1,13 @@
+# AgentScanForensics Configuration File Example
+# Copy this file to config.yaml and customize it
+
+ai:
+  engine: doubao  # Options: openai, qwen, zhipu, doubao, ollama
+  openai_model: gpt-4
+  qwen_model: qwen-turbo
+  zhipu_model: glm-4
+  ollama_model: llama3
+
+scan:
+  default_ports: "22,80,443,8080,3306,5432,8443,6379,27017"
+  scan_timeout: 60
